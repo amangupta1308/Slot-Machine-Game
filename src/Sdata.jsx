@@ -4,7 +4,7 @@ let Sdata = [
         id: "1",
         imgsrc : "https://occ-0-4994-2186.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABWl0JeMpEKnSA4ujLCIKoxf4EmtzTGXP97LsBMUkvBDJJ4sCsnArG3PHmxBp4B8fggtmTerz3fKfwCLEYg2iaSR_xh0dsuNy7ks8qH-531qTWtY-RcHdvKIhs_Wnni61hhLP.jpg?r=e90",
         title : "Netflix Original Series",
-        sname : "Dark",
+        sname : "Darke",
         link : "https://www.netflix.com/in/title/80100172",
     },
     {
