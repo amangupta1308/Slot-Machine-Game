@@ -1,12 +1,27 @@
 import React from 'react';
-import Netflix from './Netflix';
-import Amazon from './Amazon';
+import './index.css';
+import SlotM from './SlotM';
+import Sdata from './Sdata';
+import { calculateNewValue } from '@testing-library/user-event/dist/utils';
 
-let fav = prompt("Pick, Netflix or Azon Originals");
-const App = () => (
-    <>
-        <h1 className='heading_style'>List of Top 5 {fav} Picks of 2022</h1>
-        {fav === 'Netflix'? <Netflix/>: <Amazon/>}
-    </>
-);
+const App = () => {
+    return <>
+        <h1 className='heading_style'>🎰 Welcome to <span style={{fontWeight: 'bold', }}> Slot machine game </span> 🎰 </h1>
+        <div className='slotMachine'>     
+            {/* {
+                Sdata.map((val) => {
+                    return (<SlotM x={val.x} y={val.y} z={val.z} />);
+                })
+            } */}
+            <SlotM x='😄' y='😄' z='😄' />
+            <SlotM x='😄' y='😏' z='😄' />
+            <SlotM x='🍎' y='👽' z='🍎' />
+            <SlotM x='👽' y='👽' z='👽' />
+            <SlotM x='🐱' y='🌵' z='🕉️' />
+        </div>
+    </>;
+};
 export default App;
+
+
+
